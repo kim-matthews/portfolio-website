@@ -5,12 +5,12 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: process.env.SITE_NAME || "Gridsome Starter",
-  siteDescription: process.env.SITE_DESCRIPTION || "Lorem ipsum ...",
+  siteName: process.env.SITE_NAME || "Portfolio of Kim Matthews",
+  siteDescription: process.env.SITE_DESCRIPTION || "Freelance Full Stack Developer",
   siteUrl: process.env.SITE_URL,
   pathPrefix: process.env.PATH_PREFIX,
   metadata: {
-    author: process.env.AUTHOR || "John Doe",
+    author: process.env.AUTHOR || "Kim Matthews",
     github: process.env.GITHUB_URL || "https://github.com/octocat",
     linkedin: process.env.LINKEDIN_URL || "https://www.linkedin.com/in/john-doe",
   },
